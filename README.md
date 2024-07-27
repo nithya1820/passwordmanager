@@ -1,6 +1,6 @@
 # Passwordmanager
 
-##LoginFrame class:
+"LoginFrame class:"
 
 This class represents the login window of the application.
 It extends JFrame and implements ActionListener for handling button clicks.
