@@ -1,6 +1,6 @@
-## Passwordmanager
+# Passwordmanager
 
-LoginFrame class:
+##LoginFrame class:
 
 This class represents the login window of the application.
 It extends JFrame and implements ActionListener for handling button clicks.
@@ -8,7 +8,7 @@ It includes components like text fields for username and password, a login butto
 The authenticate method reads credentials from a file and validates them.
 When the login button is clicked, it triggers the actionPerformed method to handle the login process.
 
-SplashScreen class:
+##SplashScreen class:
 
 This class creates a splash screen that is displayed when the application starts.
 It includes an image, text, progress bar, and a loading animation.
@@ -17,16 +17,16 @@ HashtablePassword interface:
 
 This interface defines methods for adding, getting, and removing account-password pairs from a hashtable.
 
-CryptoUtil class:
+##CryptoUtil class:
 
 This class provides methods for encrypting and decrypting text using a secret key.
 It uses the Cipher class and a password-based encryption algorithm (PBEWithMD5AndDES).
 
-PasswordGenerator class:
+##PasswordGenerator class:
 
 This class generates random passwords of specified length using a combination of uppercase letters, lowercase letters, digits, and special characters.
 
-PasswordManager class:
+##PasswordManager class:
 
 This is the main class representing the password manager application.
 It extends JFrame and implements ActionListener.
